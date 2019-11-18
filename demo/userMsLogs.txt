@@ -1,0 +1,450 @@
+2019-11-18 16:05:15.682  INFO 9112 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 16:06:33.895  INFO 9112 --- [http-nio-8000-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 16:06:33.998  INFO 9112 --- [http-nio-8000-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-18 16:06:34.203  INFO 9112 --- [http-nio-8000-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 201 ms
+2019-11-18 16:06:35.189  INFO 9112 --- [http-nio-8000-exec-9] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 16:06:35.214  INFO 9112 --- [http-nio-8000-exec-9] com.infy.demo.service.LoginServiceImpl   : User name or Password is null
+2019-11-18 16:07:21.614  INFO 9112 --- [http-nio-8000-exec-1] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 16:07:29.364  INFO 9112 --- [http-nio-8000-exec-1] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 16:09:18.384  INFO 9112 --- [Thread-11] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LOGINMS with eureka with status DOWN
+2019-11-18 16:09:18.389  WARN 9112 --- [Thread-11] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574073558389, current=DOWN, previous=UP]
+2019-11-18 16:09:18.391  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 16:09:18.406  INFO 9112 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 16:09:18.485  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 16:09:18.641  INFO 9112 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 16:09:18.719  INFO 9112 --- [Thread-11] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-18 16:09:21.734  INFO 9112 --- [Thread-11] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-18 16:09:21.820  INFO 9112 --- [Thread-11] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - deregister  status: 200
+2019-11-18 16:09:21.836  INFO 9112 --- [Thread-11] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-18 16:09:21.852  INFO 9112 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-11-18 16:09:21.930  INFO 9112 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-11-18 16:09:34.285  INFO 9112 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:1111
+2019-11-18 16:09:50.348  INFO 9112 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=loginMs, profiles=[default], label=null, version=1c9ae14d441ae96d1d7a0f822bdd7d98fb459d33, state=null
+2019-11-18 16:09:50.348  INFO 9112 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: OriginTrackedCompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, OriginTrackedMapPropertySource {name='https://github.com/udaymashetti/springAppProperties.git/application.properties'}]}
+2019-11-18 16:09:50.394  INFO 9112 --- [restartedMain] com.infy.demo.DemoApplication            : No active profile set, falling back to default profiles: default
+2019-11-18 16:09:57.503  INFO 9112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 16:09:57.871  INFO 9112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 355ms. Found 1 repository interfaces.
+2019-11-18 16:09:58.511  INFO 9112 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=810ca45e-f26c-35a1-8137-36479ef01b18
+2019-11-18 16:09:58.672  INFO 9112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 16:09:58.687  INFO 9112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7b5637d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 16:09:58.984  WARN 9112 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-11-18 16:10:13.519  INFO 9112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2019-11-18 16:10:13.534  INFO 9112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 16:10:13.534  INFO 9112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 16:10:13.644  INFO 9112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 16:10:13.644  INFO 9112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 23250 ms
+2019-11-18 16:10:14.409  INFO 9112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-18 16:10:14.675  INFO 9112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-11-18 16:10:14.704  WARN 9112 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-18 16:10:15.470  INFO 9112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-11-18 16:10:15.485  INFO 9112 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-18 16:10:16.514  INFO 9112 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-18 16:10:16.535  INFO 9112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 16:10:16.769  WARN 9112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-11-18 16:10:18.019  WARN 9112 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-18 16:10:18.032  INFO 9112 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 16:10:18.094  WARN 9112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-18 16:10:18.726  INFO 9112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 16:10:20.023  WARN 9112 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-18 16:10:20.174  INFO 9112 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-18 16:10:20.189  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-18 16:10:20.205  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-18 16:10:20.205  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-18 16:10:20.205  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-18 16:10:20.205  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-18 16:10:20.408  INFO 9112 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 16:10:20.408  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-18 16:10:20.408  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-18 16:10:20.408  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-18 16:10:20.408  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-18 16:10:20.424  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-18 16:10:20.424  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-18 16:10:20.424  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-18 16:10:20.439  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-18 16:10:20.455  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-18 16:10:20.455  INFO 9112 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 16:10:20.470  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574073620470 with initial instances count: 1
+2019-11-18 16:10:20.502  INFO 9112 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LOGINMS with eureka with status UP
+2019-11-18 16:10:20.502  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574073620502, current=UP, previous=STARTING]
+2019-11-18 16:10:20.502  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 16:10:20.517  INFO 9112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2019-11-18 16:10:20.533  INFO 9112 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2019-11-18 16:10:20.549  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 16:10:20.845  INFO 9112 --- [restartedMain] com.infy.demo.DemoApplication            : Started DemoApplication in 50.601 seconds (JVM running for 1657.524)
+2019-11-18 16:10:20.845  INFO 9112 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-18 16:14:07.158  INFO 9112 --- [Thread-19] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LOGINMS with eureka with status DOWN
+2019-11-18 16:14:07.179  WARN 9112 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574073847179, current=DOWN, previous=UP]
+2019-11-18 16:14:07.179  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 16:14:07.179  INFO 9112 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 16:14:07.179  INFO 9112 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 16:14:07.210  INFO 9112 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-18 16:14:07.210  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 16:14:07.257  INFO 9112 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-18 16:14:07.335  INFO 9112 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - deregister  status: 200
+2019-11-18 16:14:07.366  INFO 9112 --- [Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-18 16:14:07.382  INFO 9112 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-11-18 16:14:07.382  INFO 9112 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-11-18 16:14:09.759  INFO 9112 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:1111
+2019-11-18 16:14:13.525  INFO 9112 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=loginMs, profiles=[default], label=null, version=1c9ae14d441ae96d1d7a0f822bdd7d98fb459d33, state=null
+2019-11-18 16:14:13.525  INFO 9112 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: OriginTrackedCompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, OriginTrackedMapPropertySource {name='https://github.com/udaymashetti/springAppProperties.git/application.properties'}]}
+2019-11-18 16:14:13.540  INFO 9112 --- [restartedMain] com.infy.demo.DemoApplication            : No active profile set, falling back to default profiles: default
+2019-11-18 16:14:14.310  INFO 9112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 16:14:14.326  INFO 9112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 1 repository interfaces.
+2019-11-18 16:14:14.482  INFO 9112 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=810ca45e-f26c-35a1-8137-36479ef01b18
+2019-11-18 16:14:14.529  INFO 9112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 16:14:14.529  INFO 9112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7b5637d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 16:14:14.591  WARN 9112 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-11-18 16:14:14.701  INFO 9112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2019-11-18 16:14:14.810  INFO 9112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 16:14:14.810  INFO 9112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 16:14:15.029  INFO 9112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 16:14:15.029  INFO 9112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1489 ms
+2019-11-18 16:14:15.126  INFO 9112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-18 16:14:15.142  INFO 9112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-11-18 16:14:15.142  WARN 9112 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-18 16:14:15.517  INFO 9112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-11-18 16:14:15.536  INFO 9112 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-18 16:14:16.274  INFO 9112 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-18 16:14:16.274  INFO 9112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 16:14:16.342  WARN 9112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-11-18 16:14:16.717  WARN 9112 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-18 16:14:16.717  INFO 9112 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 16:14:16.748  WARN 9112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-18 16:14:16.811  INFO 9112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 16:14:17.170  WARN 9112 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-18 16:14:17.248  INFO 9112 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-18 16:14:17.248  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-18 16:14:17.264  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-18 16:14:17.295  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-18 16:14:17.301  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-18 16:14:17.301  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-18 16:14:17.365  INFO 9112 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 16:14:17.381  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-18 16:14:17.381  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-18 16:14:17.381  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-18 16:14:17.381  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-18 16:14:17.381  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-18 16:14:17.381  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-18 16:14:17.381  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-18 16:14:17.428  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-18 16:14:17.443  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-18 16:14:17.443  INFO 9112 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 16:14:17.443  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574073857443 with initial instances count: 2
+2019-11-18 16:14:17.443  INFO 9112 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LOGINMS with eureka with status UP
+2019-11-18 16:14:17.443  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574073857443, current=UP, previous=STARTING]
+2019-11-18 16:14:17.443  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 16:14:17.459  INFO 9112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2019-11-18 16:14:17.459  INFO 9112 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2019-11-18 16:14:17.521  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 16:14:17.740  INFO 9112 --- [restartedMain] com.infy.demo.DemoApplication            : Started DemoApplication in 8.944 seconds (JVM running for 1894.424)
+2019-11-18 16:14:17.740  INFO 9112 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-18 16:14:21.262  INFO 9112 --- [Thread-28] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LOGINMS with eureka with status DOWN
+2019-11-18 16:14:21.289  WARN 9112 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574073861289, current=DOWN, previous=UP]
+2019-11-18 16:14:21.289  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 16:14:21.289  INFO 9112 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 16:14:21.289  INFO 9112 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 16:14:21.289  INFO 9112 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-18 16:14:21.367  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 16:14:21.367  INFO 9112 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-18 16:14:21.602  INFO 9112 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - deregister  status: 200
+2019-11-18 16:14:21.602  INFO 9112 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-18 16:14:21.602  INFO 9112 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-11-18 16:14:21.649  INFO 9112 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-11-18 16:14:23.014  INFO 9112 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:1111
+2019-11-18 16:14:26.483  INFO 9112 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=loginMs, profiles=[default], label=null, version=1c9ae14d441ae96d1d7a0f822bdd7d98fb459d33, state=null
+2019-11-18 16:14:26.490  INFO 9112 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: OriginTrackedCompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, OriginTrackedMapPropertySource {name='https://github.com/udaymashetti/springAppProperties.git/application.properties'}]}
+2019-11-18 16:14:26.522  INFO 9112 --- [restartedMain] com.infy.demo.DemoApplication            : No active profile set, falling back to default profiles: default
+2019-11-18 16:14:26.881  INFO 9112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 16:14:26.897  INFO 9112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-11-18 16:14:26.991  INFO 9112 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=810ca45e-f26c-35a1-8137-36479ef01b18
+2019-11-18 16:14:27.022  INFO 9112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 16:14:27.022  INFO 9112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7b5637d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 16:14:27.069  WARN 9112 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-11-18 16:14:27.194  INFO 9112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2019-11-18 16:14:27.194  INFO 9112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 16:14:27.194  INFO 9112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 16:14:27.303  INFO 9112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 16:14:27.303  INFO 9112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 765 ms
+2019-11-18 16:14:27.397  INFO 9112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-18 16:14:27.413  INFO 9112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-11-18 16:14:27.413  WARN 9112 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-18 16:14:27.506  INFO 9112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-11-18 16:14:27.515  INFO 9112 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-18 16:14:30.532  INFO 9112 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-18 16:14:30.545  INFO 9112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 16:14:30.576  WARN 9112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-11-18 16:14:30.888  WARN 9112 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-18 16:14:30.888  INFO 9112 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 16:14:30.904  WARN 9112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-18 16:14:30.982  INFO 9112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 16:14:31.342  WARN 9112 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-18 16:14:31.388  INFO 9112 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-18 16:14:31.388  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-18 16:14:31.388  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-18 16:14:31.388  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-18 16:14:31.388  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-18 16:14:31.388  INFO 9112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-18 16:14:31.482  INFO 9112 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 16:14:31.482  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-18 16:14:31.482  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-18 16:14:31.482  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-18 16:14:31.482  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-18 16:14:31.482  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-18 16:14:31.482  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-18 16:14:31.482  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-18 16:14:31.498  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-18 16:14:31.498  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-18 16:14:31.498  INFO 9112 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 16:14:31.498  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574073871498 with initial instances count: 1
+2019-11-18 16:14:31.513  INFO 9112 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LOGINMS with eureka with status UP
+2019-11-18 16:14:31.513  INFO 9112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574073871513, current=UP, previous=STARTING]
+2019-11-18 16:14:31.513  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 16:14:31.513  INFO 9112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2019-11-18 16:14:31.513  INFO 9112 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2019-11-18 16:14:31.529  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 16:14:31.732  INFO 9112 --- [restartedMain] com.infy.demo.DemoApplication            : Started DemoApplication in 9.387 seconds (JVM running for 1908.418)
+2019-11-18 16:14:31.745  INFO 9112 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-18 16:14:32.152  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-18 16:14:32.152  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LOGINMS with eureka with status DOWN
+2019-11-18 16:14:32.152  WARN 9112 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574073872152, current=DOWN, previous=UP]
+2019-11-18 16:14:32.152  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 16:14:32.152  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 16:14:32.152  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 16:14:32.152  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-18 16:14:32.278  INFO 9112 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 16:14:32.293  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-18 16:14:32.340  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - deregister  status: 200
+2019-11-18 16:14:32.371  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-18 16:14:32.371  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2019-11-18 16:14:32.387  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2019-11-18 16:14:32.558  INFO 9112 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-11-18 16:49:41.866  INFO 7028 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:1111
+2019-11-18 16:50:16.698  INFO 7028 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=loginMs, profiles=[default], label=null, version=1c9ae14d441ae96d1d7a0f822bdd7d98fb459d33, state=null
+2019-11-18 16:50:16.836  INFO 7028 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: OriginTrackedCompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, OriginTrackedMapPropertySource {name='https://github.com/udaymashetti/springAppProperties.git/application.properties'}]}
+2019-11-18 16:50:17.369  INFO 7028 --- [restartedMain] com.infy.demo.DemoApplication            : No active profile set, falling back to default profiles: default
+2019-11-18 16:50:31.771  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 16:50:32.758  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 920ms. Found 1 repository interfaces.
+2019-11-18 16:50:35.519  INFO 7028 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dee534e6-2662-3822-9cc8-77cc3d6e9c5f
+2019-11-18 16:50:36.695  INFO 7028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 16:50:37.582  INFO 7028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75d0e8a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 16:50:58.743  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2019-11-18 16:50:59.076  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 16:50:59.107  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 16:51:00.683  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 16:51:00.693  INFO 7028 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 43255 ms
+2019-11-18 16:51:10.914  INFO 7028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-18 16:51:26.170  INFO 7028 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-18 16:51:38.382  INFO 7028 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-18 16:51:42.163  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-18 16:51:42.170  WARN 7028 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-18 16:52:06.510  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-18 16:52:07.581  INFO 7028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-18 16:52:45.799  INFO 7028 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-18 16:52:46.294  INFO 7028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 16:52:47.994  WARN 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-11-18 16:52:55.055  WARN 7028 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-18 16:52:56.184  WARN 7028 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-18 16:52:56.290  INFO 7028 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 16:52:56.434  WARN 7028 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-18 16:52:56.440  INFO 7028 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 16:52:57.784  INFO 7028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 16:53:01.380  WARN 7028 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-18 16:53:03.672  INFO 7028 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-18 16:53:04.390  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-18 16:53:05.992  INFO 7028 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-18 16:53:06.004  INFO 7028 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-18 16:53:08.785  INFO 7028 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-18 16:53:08.802  INFO 7028 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-18 16:53:09.912  INFO 7028 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 16:53:10.729  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-18 16:53:10.760  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-18 16:53:10.776  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-18 16:53:10.812  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-18 16:53:10.812  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-18 16:53:10.828  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-18 16:53:10.828  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-18 16:53:12.124  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-18 16:53:12.149  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-18 16:53:12.164  INFO 7028 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 16:53:12.258  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574076192164 with initial instances count: 1
+2019-11-18 16:53:12.258  INFO 7028 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LOGINMS with eureka with status UP
+2019-11-18 16:53:12.258  INFO 7028 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574076192258, current=UP, previous=STARTING]
+2019-11-18 16:53:12.274  INFO 7028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 16:53:13.383  INFO 7028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 16:53:13.850  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2019-11-18 16:53:13.881  INFO 7028 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2019-11-18 16:53:14.131  INFO 7028 --- [restartedMain] com.infy.demo.DemoApplication            : Started DemoApplication in 214.762 seconds (JVM running for 216.07)
+2019-11-18 16:53:46.965  INFO 7028 --- [http-nio-8000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 16:53:46.973  INFO 7028 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-18 16:53:46.996  INFO 7028 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2019-11-18 16:53:47.181  INFO 7028 --- [http-nio-8000-exec-2] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 16:53:48.072  INFO 7028 --- [http-nio-8000-exec-2] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 16:53:48.531  INFO 7028 --- [http-nio-8000-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: ProductMs.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 16:53:48.652  INFO 7028 --- [http-nio-8000-exec-2] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-ProductMs
+2019-11-18 16:53:48.679  INFO 7028 --- [http-nio-8000-exec-2] c.netflix.loadbalancer.BaseLoadBalancer  : Client: ProductMs instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=ProductMs,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-11-18 16:53:48.712  INFO 7028 --- [http-nio-8000-exec-2] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-11-18 16:53:48.802  INFO 7028 --- [http-nio-8000-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: ProductMs.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 16:53:48.804  INFO 7028 --- [http-nio-8000-exec-2] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client ProductMs initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=ProductMs,current list of Servers=[DESKTOP-PCCFKVQ:8001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-PCCFKVQ:8001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@47d410f1
+2019-11-18 16:53:49.724  INFO 7028 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: ProductMs.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 16:53:51.617 ERROR 7028 --- [http-nio-8000-exec-2] com.infy.demo.service.LoginServiceImpl   : Read timed out executing GET http://ProductMs/products/findAll
+2019-11-18 16:58:10.845  INFO 7028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 17:01:16.525  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-18 17:01:16.762  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LOGINMS with eureka with status DOWN
+2019-11-18 17:01:16.782  WARN 7028 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574076676782, current=DOWN, previous=UP]
+2019-11-18 17:01:16.792  INFO 7028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 17:01:16.832  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 17:01:16.872  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-ProductMs
+2019-11-18 17:01:16.912  INFO 7028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 17:01:16.942  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 17:01:17.032  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-18 17:01:20.062  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-18 17:01:20.182  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - deregister  status: 200
+2019-11-18 17:01:20.222  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-18 17:01:20.232  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-18 17:01:20.252  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-11-18 17:01:20.434  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-11-18 17:01:20.452  INFO 7028 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-11-18 17:01:20.522  WARN 7028 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-11-18 17:01:20.532  WARN 7028 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DataPublisher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-11-18 17:01:20.532  WARN 7028 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2019-11-18 17:01:20.617  INFO 7028 --- [Thread-14] c.n.l.PollingServerListUpdater           : Shutting down the Executor Pool for PollingServerListUpdater
+2019-11-18 17:02:47.304  INFO 8400 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:1111
+2019-11-18 17:02:57.139  INFO 8400 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=loginMs, profiles=[default], label=null, version=1c9ae14d441ae96d1d7a0f822bdd7d98fb459d33, state=null
+2019-11-18 17:02:57.297  INFO 8400 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: OriginTrackedCompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, OriginTrackedMapPropertySource {name='https://github.com/udaymashetti/springAppProperties.git/application.properties'}]}
+2019-11-18 17:02:58.335  INFO 8400 --- [restartedMain] com.infy.demo.DemoApplication            : No active profile set, falling back to default profiles: default
+2019-11-18 17:03:03.007  INFO 8400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 17:03:03.589  INFO 8400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 475ms. Found 1 repository interfaces.
+2019-11-18 17:03:03.995  INFO 8400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3cb81699-1440-3dbf-b7fb-07690040f0ef
+2019-11-18 17:03:04.495  INFO 8400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 17:03:04.777  INFO 8400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d90a7442] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 17:03:10.667  INFO 8400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2019-11-18 17:03:11.068  INFO 8400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 17:03:11.083  INFO 8400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 17:03:12.536  INFO 8400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 17:03:12.549  INFO 8400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14136 ms
+2019-11-18 17:03:15.348  INFO 8400 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-18 17:03:17.854  INFO 8400 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2019-11-18 17:03:26.604  INFO 8400 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-18 17:03:27.799  INFO 8400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-18 17:03:27.813  WARN 8400 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-18 17:03:29.251  INFO 8400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-18 17:03:29.344  INFO 8400 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-18 17:03:33.360  INFO 8400 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-18 17:03:33.410  INFO 8400 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-18 17:03:33.488  WARN 8400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-11-18 17:03:34.403  WARN 8400 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-18 17:03:34.883  WARN 8400 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-18 17:03:34.883  INFO 8400 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 17:03:34.899  WARN 8400 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-18 17:03:34.899  INFO 8400 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 17:03:35.289  INFO 8400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 17:03:36.242  WARN 8400 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-18 17:03:36.666  INFO 8400 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-18 17:03:36.838  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-18 17:03:36.916  INFO 8400 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-18 17:03:36.916  INFO 8400 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-18 17:03:37.182  INFO 8400 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-18 17:03:37.182  INFO 8400 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-18 17:03:37.526  INFO 8400 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 17:03:37.796  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-18 17:03:37.811  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-18 17:03:37.811  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-18 17:03:37.811  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-18 17:03:37.811  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-18 17:03:37.827  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-18 17:03:37.827  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-18 17:03:37.967  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-18 17:03:37.967  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-18 17:03:37.967  INFO 8400 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 17:03:37.983  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1574076817983 with initial instances count: 1
+2019-11-18 17:03:37.983  INFO 8400 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LOGINMS with eureka with status UP
+2019-11-18 17:03:37.983  INFO 8400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1574076817983, current=UP, previous=STARTING]
+2019-11-18 17:03:37.999  INFO 8400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000: registering service...
+2019-11-18 17:03:38.061  INFO 8400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2019-11-18 17:03:38.077  INFO 8400 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2019-11-18 17:03:38.171  INFO 8400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOGINMS/DESKTOP-PCCFKVQ:loginMs:8000 - registration status: 204
+2019-11-18 17:03:38.327  INFO 8400 --- [restartedMain] com.infy.demo.DemoApplication            : Started DemoApplication in 52.748 seconds (JVM running for 54.244)
+2019-11-18 17:03:47.941  INFO 8400 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 17:03:48.053  INFO 8400 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-18 17:03:48.067  INFO 8400 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-11-18 17:03:48.348  INFO 8400 --- [http-nio-8000-exec-1] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:03:48.349  INFO 8400 --- [http-nio-8000-exec-1] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:03:49.336  INFO 8400 --- [http-nio-8000-exec-1] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 17:03:49.747  INFO 8400 --- [http-nio-8000-exec-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: ProductMs.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 17:03:49.862  INFO 8400 --- [http-nio-8000-exec-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-ProductMs
+2019-11-18 17:03:49.870  INFO 8400 --- [http-nio-8000-exec-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: ProductMs instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=ProductMs,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-11-18 17:03:49.898  INFO 8400 --- [http-nio-8000-exec-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-11-18 17:03:50.043  INFO 8400 --- [http-nio-8000-exec-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: ProductMs.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 17:03:50.054  INFO 8400 --- [http-nio-8000-exec-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client ProductMs initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=ProductMs,current list of Servers=[DESKTOP-PCCFKVQ:8001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-PCCFKVQ:8001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2288aa8e
+2019-11-18 17:03:50.903  INFO 8400 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: ProductMs.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 17:08:37.845  INFO 8400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 17:09:52.001  INFO 8400 --- [http-nio-8000-exec-5] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:09:52.095  INFO 8400 --- [http-nio-8000-exec-5] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:09:52.108  INFO 8400 --- [http-nio-8000-exec-5] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 17:09:54.212 ERROR 8400 --- [http-nio-8000-exec-5] com.infy.demo.service.LoginServiceImpl   : Read timed out executing GET http://ProductMs/products/findAll
+2019-11-18 17:12:29.286  INFO 8400 --- [http-nio-8000-exec-4] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:12:29.494  INFO 8400 --- [http-nio-8000-exec-4] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:12:29.504  INFO 8400 --- [http-nio-8000-exec-4] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 17:13:07.571  INFO 8400 --- [http-nio-8000-exec-6] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:13:07.684  INFO 8400 --- [http-nio-8000-exec-6] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:13:07.733  INFO 8400 --- [http-nio-8000-exec-6] com.infy.demo.service.LoginServiceImpl   : login Failed!!! for useruday
+2019-11-18 17:13:14.820  INFO 8400 --- [http-nio-8000-exec-7] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:13:14.854  INFO 8400 --- [http-nio-8000-exec-7] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:13:14.859  INFO 8400 --- [http-nio-8000-exec-7] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 17:13:38.032  INFO 8400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 17:15:48.422  INFO 8400 --- [http-nio-8000-exec-9] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:15:48.554  INFO 8400 --- [http-nio-8000-exec-9] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:15:48.570  INFO 8400 --- [http-nio-8000-exec-9] com.infy.demo.service.LoginServiceImpl   : login Failed!!! for useruday
+2019-11-18 17:15:56.566  WARN 8400 --- [http-nio-8000-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 4, column: 2]]
+2019-11-18 17:16:04.698  INFO 8400 --- [http-nio-8000-exec-2] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:16:04.786  INFO 8400 --- [http-nio-8000-exec-2] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:16:04.798  INFO 8400 --- [http-nio-8000-exec-2] com.infy.demo.service.LoginServiceImpl   : login Failed!!! for useruday
+2019-11-18 17:16:09.707  INFO 8400 --- [http-nio-8000-exec-1] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:16:09.715  INFO 8400 --- [http-nio-8000-exec-1] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:16:09.786  INFO 8400 --- [http-nio-8000-exec-1] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 17:18:38.164  INFO 8400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 17:23:38.506  INFO 8400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 17:27:38.300  INFO 8400 --- [http-nio-8000-exec-5] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:27:38.700  INFO 8400 --- [http-nio-8000-exec-5] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:27:40.692  INFO 8400 --- [http-nio-8000-exec-4] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:27:40.904  INFO 8400 --- [http-nio-8000-exec-4] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:27:42.472  INFO 8400 --- [http-nio-8000-exec-5] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 17:27:44.802  INFO 8400 --- [http-nio-8000-exec-4] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 17:27:45.756 ERROR 8400 --- [http-nio-8000-exec-5] com.infy.demo.service.LoginServiceImpl   : Read timed out executing GET http://ProductMs/products/findAll
+2019-11-18 17:28:06.436  INFO 8400 --- [http-nio-8000-exec-6] com.infy.demo.controller.UserController  : UserController.login()
+2019-11-18 17:28:06.628  INFO 8400 --- [http-nio-8000-exec-6] com.infy.demo.service.LoginServiceImpl   : Provided userName is uday
+2019-11-18 17:28:06.680  INFO 8400 --- [http-nio-8000-exec-6] com.infy.demo.service.LoginServiceImpl   : login Successfull!!!! for user uday
+2019-11-18 17:28:38.691  INFO 8400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-18 17:33:38.820  INFO 8400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
